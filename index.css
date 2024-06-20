@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 100px;
+}
+.header-text {
+    text-align: left;
+    margin-left: 10px;
+}
+.header-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #00008B; /* Dark Blue */
+}
+.header-text p {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    color: #00008B; /* Dark Blue */
+}
+.main-nav {
+  
+    padding-top:25px;
+}
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.main-nav li {
+    margin: 0 10px;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    background-color: #cfe2f3;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.main-nav li a:hover {
+    background-color: #b6d7a8;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contest-winners {
+    width: 70%;
+}
+.next-contest {
+    width: 25%;
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 30px;
+    height: 50%;
+    border-style: solid;
+}
+.photo-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.category {
+    width: 100%;
+}
+.photos {
+    display: flex;
+    gap: 10px;
+}
+.photos img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 150px; /* Adjust based on your needs */
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
